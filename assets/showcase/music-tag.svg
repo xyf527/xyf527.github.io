@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="Music Tag 界面示意：曲目列表与标签编辑面板">
+  <style>
+    .t{font-family:-apple-system,'PingFang SC','Helvetica Neue',sans-serif}
+    .m{font-family:ui-monospace,'SF Mono',Menlo,monospace}
+  </style>
+  <rect width="1200" height="800" fill="#f7f8fb"/>
+  <!-- 窗口栏 -->
+  <rect width="1200" height="56" fill="#ffffff"/>
+  <line x1="0" y1="56" x2="1200" y2="56" stroke="#e3e6ee"/>
+  <circle cx="28" cy="28" r="7" fill="#ff5f57"/><circle cx="50" cy="28" r="7" fill="#febc2e"/><circle cx="72" cy="28" r="7" fill="#28c840"/>
+  <text x="110" y="35" class="t" font-size="18" font-weight="700" fill="#1f2350">♪ Music Tag</text>
+  <rect x="820" y="14" width="160" height="28" rx="14" fill="#1f2350"/>
+  <text x="900" y="33" class="t" font-size="13" fill="#fff" text-anchor="middle">批量导入</text>
+  <rect x="992" y="14" width="180" height="28" rx="14" fill="none" stroke="#1f2350"/>
+  <text x="1082" y="33" class="t" font-size="13" fill="#1f2350" text-anchor="middle">导出 ZIP · MinIO 备份</text>
+
+  <!-- 曲目列表 -->
+  <rect x="24" y="80" width="640" height="696" rx="14" fill="#fff" stroke="#e3e6ee"/>
+  <text x="48" y="116" class="t" font-size="15" font-weight="700" fill="#1f2350">曲目 · 128</text>
+  <text x="640" y="116" class="m" font-size="12" fill="#8a90a6" text-anchor="end">原文件只读 🔒</text>
+  <g class="t" font-size="14" fill="#1f2350">
+    <rect x="40" y="136" width="608" height="64" rx="10" fill="#ffe6f0"/>
+    <rect x="52" y="146" width="44" height="44" rx="8" fill="#ffb0d0"/>
+    <text x="112" y="166" font-weight="700">夜空中最亮的星</text><text x="112" y="186" fill="#6b7088" font-size="12">逃跑计划 · 世界 · 2011</text>
+    <text x="632" y="174" class="m" font-size="12" text-anchor="end" fill="#d9558c">编辑中</text>
+
+    <rect x="52" y="214" width="44" height="44" rx="8" fill="#a8dcff"/>
+    <text x="112" y="234" font-weight="700">晴天</text><text x="112" y="254" fill="#6b7088" font-size="12">周杰伦 · 叶惠美 · 2003</text>
+    <text x="632" y="242" class="m" font-size="12" text-anchor="end" fill="#3a9a6a">✓ 已处理</text>
+
+    <rect x="52" y="282" width="44" height="44" rx="8" fill="#c8b6ff"/>
+    <text x="112" y="302" font-weight="700">平凡之路</text><text x="112" y="322" fill="#6b7088" font-size="12">朴树 · 猎户星座 · 2017</text>
+    <text x="632" y="310" class="m" font-size="12" text-anchor="end" fill="#3a9a6a">✓ 已处理</text>
+
+    <rect x="52" y="350" width="44" height="44" rx="8" fill="#ffd9a8"/>
+    <text x="112" y="370" font-weight="700">稻香</text><text x="112" y="390" fill="#6b7088" font-size="12">周杰伦 · 魔杰座 · 2008</text>
+    <text x="632" y="378" class="m" font-size="12" text-anchor="end" fill="#8a90a6">缺少封面</text>
+
+    <rect x="52" y="418" width="44" height="44" rx="8" fill="#b8ecd6"/>
+    <text x="112" y="438" font-weight="700">光年之外</text><text x="112" y="458" fill="#6b7088" font-size="12">G.E.M. 邓紫棋 · 2016</text>
+    <text x="632" y="446" class="m" font-size="12" text-anchor="end" fill="#8a90a6">缺少歌词</text>
+  </g>
+  <g class="m" font-size="12" fill="#8a90a6">
+    <text x="48" y="520">支持格式</text>
+    <g fill="#1f2350">
+      <rect x="48" y="534" width="64" height="26" rx="13" fill="none" stroke="#1f2350"/><text x="80" y="551" text-anchor="middle">MP3</text>
+      <rect x="122" y="534" width="64" height="26" rx="13" fill="none" stroke="#1f2350"/><text x="154" y="551" text-anchor="middle">FLAC</text>
+      <rect x="196" y="534" width="64" height="26" rx="13" fill="none" stroke="#1f2350"/><text x="228" y="551" text-anchor="middle">M4A</text>
+      <rect x="270" y="534" width="74" height="26" rx="13" fill="none" stroke="#1f2350"/><text x="307" y="551" text-anchor="middle">Vorbis</text>
+    </g>
+  </g>
+  <rect x="48" y="600" width="592" height="150" rx="12" fill="#f3f5fa"/>
+  <text x="68" y="630" class="t" font-size="13" font-weight="700" fill="#1f2350">版本记录</text>
+  <g class="m" font-size="12" fill="#4a5070">
+    <text x="68" y="660">v3  写入歌词与封面            10-04 21:32</text>
+    <text x="68" y="684">v2  修正专辑名与年份          10-04 21:30</text>
+    <text x="68" y="708">v1  导入原始文件（只读保存）  10-04 21:28</text>
+  </g>
+
+  <!-- 标签编辑面板 -->
+  <rect x="688" y="80" width="488" height="696" rx="14" fill="#fff" stroke="#e3e6ee"/>
+  <rect x="712" y="104" width="160" height="160" rx="14" fill="#ffb0d0"/>
+  <circle cx="792" cy="184" r="52" fill="#1f2350"/><circle cx="792" cy="184" r="14" fill="#ffb0d0"/>
+  <text x="892" y="140" class="t" font-size="20" font-weight="800" fill="#1f2350">夜空中最亮的星</text>
+  <text x="892" y="166" class="t" font-size="13" fill="#6b7088">MP3 · ID3v2.4 · 320kbps</text>
+  <rect x="892" y="184" width="124" height="28" rx="14" fill="#1f2350"/><text x="954" y="203" class="t" font-size="12" fill="#fff" text-anchor="middle">替换封面</text>
+  <g class="t" font-size="12" fill="#6b7088">
+    <text x="712" y="304">标题</text><rect x="712" y="312" width="440" height="38" rx="8" fill="#f3f5fa"/><text x="726" y="336" font-size="14" fill="#1f2350">夜空中最亮的星</text>
+    <text x="712" y="376">艺术家</text><rect x="712" y="384" width="440" height="38" rx="8" fill="#f3f5fa"/><text x="726" y="408" font-size="14" fill="#1f2350">逃跑计划</text>
+    <text x="712" y="448">专辑</text><rect x="712" y="456" width="290" height="38" rx="8" fill="#f3f5fa"/><text x="726" y="480" font-size="14" fill="#1f2350">世界</text>
+    <text x="1016" y="448">年份</text><rect x="1016" y="456" width="136" height="38" rx="8" fill="#f3f5fa"/><text x="1030" y="480" font-size="14" fill="#1f2350">2011</text>
+    <text x="712" y="520">歌词</text><rect x="712" y="528" width="440" height="140" rx="8" fill="#f3f5fa"/>
+  </g>
+  <g class="m" font-size="12" fill="#4a5070">
+    <text x="726" y="554">[00:21.30] 最亮的星</text>
+    <text x="726" y="576">[00:25.80] 请指引我靠近你</text>
+    <text x="726" y="598" fill="#b0b4c4">[00:30.10] …</text>
+  </g>
+  <rect x="712" y="696" width="214" height="52" rx="12" fill="#ffe6f0" stroke="#d9558c"/>
+  <text x="819" y="728" class="t" font-size="14" fill="#d9558c" text-anchor="middle">预览改动</text>
+  <rect x="938" y="696" width="214" height="52" rx="12" fill="#1f2350"/>
+  <text x="1045" y="728" class="t" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">生成成品 →</text>
+</svg>

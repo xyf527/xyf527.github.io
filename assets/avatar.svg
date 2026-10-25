@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="xyf 的头像：一只从猫粮袋后面探头的奶油色猫">
+  <defs><clipPath id="c"><circle cx="32" cy="32" r="31"/></clipPath></defs>
+  <g clip-path="url(#c)">
+    <rect width="64" height="64" fill="#dcf1ff"/>
+    <!-- 耳朵 -->
+    <path d="M10 33 13 11 28 23Z" fill="#f0bf86"/>
+    <path d="M14 28 15.5 16 24 23Z" fill="#f6b3b6"/>
+    <path d="M54 33 51 11 36 23Z" fill="#f0bf86"/>
+    <path d="M50 28 48.5 16 40 23Z" fill="#f6b3b6"/>
+    <!-- 脸 -->
+    <ellipse cx="32" cy="38" rx="23" ry="18" fill="#f3c995"/>
+    <path d="M26 22q2 3 1 6M32 21v6M38 22q-2 3-1 6" stroke="#e2a964" stroke-width="1.6" stroke-linecap="round" fill="none"/>
+    <path d="M27.5 50Q32 29 36.5 50Z" fill="#fff6ea"/>
+    <ellipse cx="32" cy="48" rx="10" ry="6" fill="#fff6ea"/>
+    <!-- 眼睛 -->
+    <ellipse cx="22.5" cy="37" rx="4.8" ry="5" fill="#1e1511"/>
+    <ellipse cx="41.5" cy="37" rx="4.8" ry="5" fill="#1e1511"/>
+    <circle cx="24.2" cy="35.2" r="1.5" fill="#fff"/>
+    <circle cx="43.2" cy="35.2" r="1.5" fill="#fff"/>
+    <!-- 鼻子 -->
+    <path d="M30 43.2h4l-2 2.6Z" fill="#f29aa6"/>
+    <!-- 胡须 -->
+    <path d="M40 45.5l15-3M40 47l15 .8M24 45.5l-15-3M24 47l-15 .8" stroke="#fff" stroke-width=".9" stroke-linecap="round" opacity=".9"/>
+    <!-- 猫粮袋 -->
+    <path d="M-2 50 66 47V66H-2Z" fill="#ecebe6" stroke="#1f2350" stroke-width="1.6"/>
+    <path d="M2 53.5q8-2.5 17-1.4l-1 4.2Q10 55.6 3 57.6Z" fill="#e2574c"/>
+    <path d="M30 57h22M33 60.5h16" stroke="#1f2350" stroke-width="1.8" stroke-linecap="round"/>
+  </g>
+  <circle cx="32" cy="32" r="31" fill="none" stroke="#1f2350" stroke-width="2"/>
+</svg>
